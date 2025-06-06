@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { trpc } from "../providers/trpc-provider"
-import { useUser } from "@auth0/nextjs-auth0/client"
+import { useUser } from "@auth0/nextjs-auth0"
 
 interface SidebarProps {
   isOpen: boolean
