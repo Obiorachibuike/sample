@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { UserProvider } from "@auth0/nextjs-auth0/client"
+import { UserProvider } from "@auth0/nextjs-auth0"
 import { TRPCProvider } from "./providers/trpc-provider"
 
 const inter = Inter({ subsets: ["latin"] })
